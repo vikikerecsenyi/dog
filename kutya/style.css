@@ -1,0 +1,74 @@
+* {
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.fejresz {
+    width: 100vw;
+    background: url("dog-838281__480.jpg") no-repeat center top fixed;
+    height: 300px;
+}
+
+.menusor {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: #1e272e;
+}
+
+.menupont {
+    padding: 2vh;
+}
+
+.menupont a {
+    color: white;
+    text-decoration: none;
+}
+
+.menupont:hover {
+    background-color: #485460;
+    cursor: pointer;
+}
+
+.active, .active:hover {
+    background-color: black;
+    color: white;
+}
+
+.tartalom {
+    margin-left: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#tartalom2 {
+    margin: 10px;
+}
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 450px;
+    height: 400px;
+  }
+  
+.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+.desc {
+    padding: 15px;
+    text-align: center;
+  }
